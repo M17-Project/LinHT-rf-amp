@@ -2656,6 +2656,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C464434"
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GJM1555C1H330FB01D"
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f104d846-2d08-4927-96aa-a2de614db05c")
 		)
@@ -2718,6 +2736,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25913"
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402WGF6041TCE"
 			(at 132.08 83.82 0)
 			(effects
 				(font
@@ -2795,6 +2831,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C237279"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155C80J106ME11D"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa431dc4-8932-4775-9393-7e8a010cdafa")
 		)
@@ -2855,6 +2909,24 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
 			(at 153.67 91.44 0)
 			(effects
 				(font
@@ -2932,6 +3004,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C913614"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM155C71H104KE19D"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89b87fc9-4718-45ec-8fe5-0f9975baae72")
 		)
@@ -2993,6 +3083,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88891"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GJM1555C1H3R0BB01D"
 			(at 186.69 127 0)
 			(effects
 				(font
@@ -3068,6 +3176,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C464434"
+			(at 118.11 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GJM1555C1H330FB01D"
+			(at 118.11 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c201211-e68b-48db-84f7-fea4ece0b264")
 		)
@@ -3088,7 +3214,7 @@
 		(at 147.32 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3136,6 +3262,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 147.32 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 147.32 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6c89e1c-c378-499e-ba20-9c297bb80cc2")
 		)
@@ -3169,7 +3313,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3217,6 +3361,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 97.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 97.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0923efc9-3bc0-4753-908e-2cac863c6ad1")
 		)
@@ -3237,7 +3399,7 @@
 		(at 203.2 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "45a83d79-d158-44f1-abea-e8ff668717d6")
@@ -3276,6 +3438,24 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 203.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 203.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
 			(at 203.2 121.92 0)
 			(effects
 				(font
@@ -3346,6 +3526,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88883"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GJM1555C1H270FB01D"
 			(at 181.61 127 0)
 			(effects
 				(font
@@ -3619,6 +3817,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20623501"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402HP-20NXGLW"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "caca6d5e-2570-4296-94a0-b21b68116c64")
 		)
@@ -3680,6 +3896,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C70427"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402WGF1961TCE"
 			(at 129.54 83.82 0)
 			(effects
 				(font
@@ -3824,6 +4058,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C161523"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM1555C1H102FA01D"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db8da5fe-29f6-469a-a6fd-6a5e5d800445")
 		)
@@ -3885,6 +4137,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88896"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GJM1555C1H6R8BB01D"
 			(at 166.37 127 0)
 			(effects
 				(font
@@ -4159,6 +4429,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2042508"
+			(at 173.99 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LQW18AN2N4C8ZD"
+			(at 173.99 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ad2690a-7caa-4feb-ba4d-611d531cfedd")
 		)
@@ -4219,6 +4507,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C782046"
+			(at 107.95 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GJM1555C1H100FB01D"
+			(at 107.95 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,6 +4665,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRF5604"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "2a47a67b-ea3e-4e3f-bf3e-ef460c40896d")
 		)
@@ -4471,6 +4795,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77177"
+			(at 193.04 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM1555C1H101JA01D"
+			(at 193.04 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6c650b0-9c02-4ac0-b8fc-257630d8850e")
 		)
@@ -4540,6 +4882,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C161523"
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM1555C1H102FA01D"
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3536e3f3-7bcd-46c1-86c9-4138c6ae872a")
 		)
@@ -4583,7 +4943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:0908SQ-23N"
 			(at 161.29 115.57 0)
 			(effects
 				(font
@@ -4602,6 +4962,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42418190 or C5441443"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "XR0908SQ-23NJLC or 0908SQ-23NJLC"
 			(at 161.29 115.57 0)
 			(effects
 				(font
@@ -4672,6 +5050,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 113.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C668375"
+			(at 113.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LQG15HH10NJ02D"
 			(at 113.03 127 0)
 			(effects
 				(font
@@ -4816,6 +5212,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C161523"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM1555C1H102FA01D"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71114ea4-561b-46d4-a291-9982055556fb")
 		)
@@ -4878,6 +5292,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402WGF1003TCE"
 			(at 114.3 74.93 0)
 			(effects
 				(font
