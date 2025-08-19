@@ -1107,20 +1107,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "GRF5604_0_1"
+			(symbol "GRF5604_1_1"
 				(rectangle
 					(start -19.05 13.97)
 					(end 6.35 -6.35)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.4)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "GRF5604_1_1"
 				(polyline
 					(pts
 						(xy -17.78 5.08) (xy -17.78 0) (xy -17.78 -5.08) (xy -7.62 0) (xy -17.78 5.08)
