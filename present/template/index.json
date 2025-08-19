@@ -1,0 +1,22 @@
+{
+  "title": "LinHT RF Amplifier",
+  "name": "LinHT-rf-amp",
+  "description": "This is the hardware project page for LINHT-RF-AMP board.",
+  "files": [
+    {"file": "gerbers_jlcpcb.zip", "description": "Gerber Files for JLCPCB (ZIP)"},
+    {"file": "gerbers_pcbway.zip", "description": "Gerber Files for PCBWay (ZIP)"},
+    {"file": "LinHT-rf-amp_top_pos.csv", "description": "Position File (CSV)"},
+    {"file": "LinHT-rf-amp_pos_jlcpcb.csv", "description": "Position File for JLCPCB (CSV)"},
+    {"file": "LinHT-rf-amp_bom.csv", "description": "Bill of Materials for JLCPCB (CSV)"},
+    {"file": "LinHT-rf-amp_bom.xml", "description": "Bill of Materials (XML)"},
+    {"file": "LinHT-rf-amp_schematic.pdf", "description": "Schematic (PDF)"},
+    {"file": "LinHT-rf-amp_schematic_bw.pdf", "description": "Schematic without Colors (PDF)"},
+    {"file": "LinHT-rf-amp_model.step.xz", "description": "3D Model (STEP.XZ)"},
+    {"file": "LinHT-rf-amp_model.vrml.xz", "description": "3D Model (VRML.XZ)"}
+  ],
+  "renders": [
+    {"suffix": "preview", "alt": "Isometric view of the PCB"},
+    {"suffix": "front",   "alt": "Top side of the PCB"},
+    {"suffix": "back",    "alt": "Bottom side of the PCB"}
+  ]
+}
