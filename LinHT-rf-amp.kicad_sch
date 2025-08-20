@@ -1716,6 +1716,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RF_Filter:LFCN-490"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 0 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LFCN-490"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-490+.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "490MHz 50 Ohm Passive Low Pass Filter, FV1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Mini-Circuits low pass filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Filter*Mini?Circuits*FV1206*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LFCN-490_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.81 2.54)
+					(mid -1.905 3.5595)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 -1.27)
+					(mid -1.905 -0.2505)
+					(end 0 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 2.54)
+					(mid 1.905 1.5205)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -1.27)
+					(mid 1.905 -2.2895)
+					(end 0 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LFCN-490_1_1"
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1825,6 +2040,12 @@
 		(uuid "14d03151-4259-4242-9e8f-f0c05c60618b")
 	)
 	(junction
+		(at 186.69 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "447c07c4-d2c1-4a25-9359-04ce93e916e5")
+	)
+	(junction
 		(at 161.29 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1835,6 +2056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d6ec0db-f2db-4f8b-8c24-72fa5f336095")
+	)
+	(junction
+		(at 181.61 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52ba49f8-09d7-4971-98cc-ce892f211239")
 	)
 	(junction
 		(at 130.81 78.74)
@@ -1891,12 +2118,6 @@
 		(uuid "8f06b4f1-6e2b-473a-919e-f09d25f3b7a4")
 	)
 	(junction
-		(at 181.61 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92f30616-743a-4fa1-ada1-075b3a512a1b")
-	)
-	(junction
 		(at 104.14 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1909,16 +2130,22 @@
 		(uuid "a16bd277-cf31-4db4-b4d2-6fae258e86ab")
 	)
 	(junction
+		(at 227.33 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8266768-ab53-4638-85e1-0ef3894ce3a6")
+	)
+	(junction
 		(at 116.84 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9e56b2e-8b30-4f1f-acb6-fd122c3dacb8")
 	)
 	(junction
-		(at 166.37 132.08)
+		(at 209.55 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5d4330a-baa4-408c-95a1-c9c4f040e7d1")
+		(uuid "bb2fc188-61f3-45f5-8840-293cb2c36130")
 	)
 	(junction
 		(at 166.37 121.92)
@@ -1933,16 +2160,10 @@
 		(uuid "c2c48921-91dc-4777-8f73-59866b2524ed")
 	)
 	(junction
-		(at 186.69 132.08)
+		(at 166.37 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d29df5bd-f00b-4024-bf2e-f97eb5653c43")
-	)
-	(junction
-		(at 204.47 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc76b367-1210-4651-8975-49d4b8c6f67d")
+		(uuid "d1eb5dc2-22c7-44ac-a32a-dcf2577951b7")
 	)
 	(junction
 		(at 149.86 175.26)
@@ -1959,6 +2180,16 @@
 			(type default)
 		)
 		(uuid "00830b79-58cd-462a-9659-7ac49082a1bc")
+	)
+	(wire
+		(pts
+			(xy 196.85 121.92) (xy 199.39 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01954c72-f23c-4957-916a-36c953a75d17")
 	)
 	(wire
 		(pts
@@ -2022,6 +2253,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 121.92) (xy 222.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbdae56-cc26-4b83-9557-20817cda0088")
+	)
+	(wire
+		(pts
 			(xy 175.26 92.71) (xy 175.26 91.44)
 		)
 		(stroke
@@ -2042,13 +2283,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 132.08) (xy 181.61 132.08)
+			(xy 166.37 133.35) (xy 181.61 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "152ef255-de4e-4285-aeae-26a0c6c35380")
+	)
+	(wire
+		(pts
+			(xy 209.55 133.35) (xy 227.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164a1483-5ea4-423d-9934-e0ed9dd1b254")
 	)
 	(wire
 		(pts
@@ -2192,13 +2443,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 130.81) (xy 166.37 132.08)
+			(xy 181.61 130.81) (xy 181.61 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36e60cd6-1bc0-43f6-bc53-6e40f9d67d7e")
+		(uuid "35843418-5149-40f1-a889-55e71451c0fc")
 	)
 	(wire
 		(pts
@@ -2249,6 +2500,16 @@
 			(type default)
 		)
 		(uuid "47810e10-c733-4849-9fa0-daa2a25d03cf")
+	)
+	(wire
+		(pts
+			(xy 181.61 133.35) (xy 186.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dfec99-29e1-4ecc-9c7f-275b3787c661")
 	)
 	(wire
 		(pts
@@ -2312,16 +2573,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 204.47 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5169af50-f88d-4b35-bcc2-d38fca1514a1")
-	)
-	(wire
-		(pts
 			(xy 170.18 101.6) (xy 172.72 101.6)
 		)
 		(stroke
@@ -2362,16 +2613,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 132.08) (xy 204.47 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63eb09ae-62f2-4fc1-b663-3cfdd1bafcff")
-	)
-	(wire
-		(pts
 			(xy 157.48 91.44) (xy 161.29 91.44)
 		)
 		(stroke
@@ -2389,6 +2630,16 @@
 			(type default)
 		)
 		(uuid "68526764-cd3a-4992-802a-a8eb05378878")
+	)
+	(wire
+		(pts
+			(xy 227.33 127) (xy 227.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1aa4c9-3b2e-428f-b3d0-4aa0a584ee27")
 	)
 	(wire
 		(pts
@@ -2492,6 +2743,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 132.08) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842cb1e0-2d8a-4687-b405-539edeeadc37")
+	)
+	(wire
+		(pts
 			(xy 111.76 130.81) (xy 111.76 132.08)
 		)
 		(stroke
@@ -2512,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 132.08) (xy 186.69 130.81)
+			(xy 186.69 130.81) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2622,16 +2883,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 121.92) (xy 199.39 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af9396c3-8d67-4849-9a41-ecdca0b0a134")
-	)
-	(wire
-		(pts
 			(xy 175.26 91.44) (xy 170.18 91.44)
 		)
 		(stroke
@@ -2662,23 +2913,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 132.08) (xy 166.37 132.08)
+			(xy 186.69 133.35) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4df06f-0485-49c3-ab63-a2d555c959c8")
+	)
+	(wire
+		(pts
+			(xy 161.29 133.35) (xy 166.37 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bfdb585a-c269-4072-8449-0b28c8163fb9")
-	)
-	(wire
-		(pts
-			(xy 181.61 132.08) (xy 186.69 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ac25c0-9662-4af3-b2b7-3576613ac237")
 	)
 	(wire
 		(pts
@@ -2692,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 132.08) (xy 204.47 133.35)
+			(xy 227.33 133.35) (xy 227.33 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 130.81) (xy 161.29 132.08)
+			(xy 161.29 130.81) (xy 161.29 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2779,16 +3030,6 @@
 			(type default)
 		)
 		(uuid "d94fe11c-5a97-4b2d-80f2-dad2c450036f")
-	)
-	(wire
-		(pts
-			(xy 181.61 130.81) (xy 181.61 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da600fc5-376d-446e-a1af-287b2fde8eae")
 	)
 	(wire
 		(pts
@@ -2859,6 +3100,16 @@
 			(type default)
 		)
 		(uuid "f09dbaa7-76c3-4591-9342-4d786f2e8c83")
+	)
+	(wire
+		(pts
+			(xy 166.37 130.81) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a16233-a7d7-480e-9a56-7c0a275d58f6")
 	)
 	(wire
 		(pts
@@ -3025,6 +3276,37 @@
 		)
 		(property "Component Class" ""
 			(at 123.19 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 220.98 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8115aeba-9c48-4e65-a53f-1e62c132691e")
+		(property "Netclass" "RF"
+			(at 221.6785 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 160.02 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +4270,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 204.47 121.92 0)
+		(at 227.33 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3996,7 +4278,7 @@
 		(dnp no)
 		(uuid "45a83d79-d158-44f1-abea-e8ff668717d6")
 		(property "Reference" "J3"
-			(at 204.216 114.808 0)
+			(at 227.076 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4286,7 @@
 			)
 		)
 		(property "Value" "OUTPUT"
-			(at 204.216 117.348 0)
+			(at 227.076 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4294,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
-			(at 204.47 121.92 0)
+			(at 227.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 121.92 0)
+			(at 227.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4312,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 204.47 121.92 0)
+			(at 227.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4321,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 204.47 121.92 0)
+			(at 227.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +4330,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 204.47 121.92 0)
+			(at 227.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 133.35 0)
+		(at 227.33 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4607,7 +4889,7 @@
 		(fields_autoplaced yes)
 		(uuid "800366c8-5b9e-46aa-a73a-87928c2ce3f0")
 		(property "Reference" "#PWR09"
-			(at 204.47 139.7 0)
+			(at 227.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 138.43 0)
+			(at 227.33 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 133.35 0)
+			(at 227.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 133.35 0)
+			(at 227.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 133.35 0)
+			(at 227.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +5036,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 262.89 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -4797,15 +5079,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 262.89 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 262.89 173.99 0)
 			(effects
 				(font
@@ -5708,6 +5981,98 @@
 			(project "LinHT-rf-amp"
 				(path "/b60b2c6a-7dcb-464b-b203-73aaa2c63503"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Filter:LFCN-490")
+		(at 209.55 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3f96bff-30fb-4317-a1bb-316b4f7e1804")
+		(property "Reference" "FL1"
+			(at 209.55 110.1555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LFCN-490"
+			(at 209.55 112.5798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
+			(at 209.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-490+.pdf"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "490MHz 50 Ohm Passive Low Pass Filter, FV1206"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3008205"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LFCN-490+"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1dd27762-19a4-42e4-aca1-153229590329")
+		)
+		(pin "1"
+			(uuid "6b2c24a6-c5c5-4159-9785-b24b21a5b02b")
+		)
+		(pin "2"
+			(uuid "408ab584-1290-4448-a449-e130fe4a07ef")
+		)
+		(pin "4"
+			(uuid "5bc6217b-c804-4729-8177-d5b4fd856e83")
+		)
+		(instances
+			(project ""
+				(path "/b60b2c6a-7dcb-464b-b203-73aaa2c63503"
+					(reference "FL1")
 					(unit 1)
 				)
 			)
