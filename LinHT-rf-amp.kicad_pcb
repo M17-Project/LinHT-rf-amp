@@ -4118,7 +4118,7 @@
 		(path "/3e9490ab-e705-40e1-9b23-450c0d5567e1")
 		(sheetname "/")
 		(sheetfile "LinHT-rf-amp.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -4670,7 +4670,7 @@
 		(path "/45a83d79-d158-44f1-abea-e8ff668717d6")
 		(sheetname "/")
 		(sheetfile "LinHT-rf-amp.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.71 -0.25)
 			(end -3.71 0.25)
@@ -6297,7 +6297,7 @@
 		(path "/459f23cb-113e-4fc3-9e06-f8d58fcbb03b")
 		(sheetname "/")
 		(sheetfile "LinHT-rf-amp.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.21 0)
 			(end -3.71 -0.25)
