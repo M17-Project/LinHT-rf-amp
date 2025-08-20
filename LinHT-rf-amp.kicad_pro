@@ -501,6 +501,12 @@
       "Net-(C7-Pad2)": [
         "RF"
       ],
+      "Net-(FL1-IN)": [
+        "RF"
+      ],
+      "Net-(FL1-OUT)": [
+        "RF"
+      ],
       "Net-(J2-In)": [
         "RF"
       ],
