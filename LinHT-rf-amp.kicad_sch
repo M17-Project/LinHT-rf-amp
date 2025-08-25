@@ -1314,7 +1314,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
+			(property "Footprint" "Parts:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
 				(at 4.572 -13.462 0)
 				(effects
 					(font
@@ -5709,7 +5709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
+		(property "Footprint" "Parts:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
 			(at 150.622 135.382 0)
 			(effects
 				(font
