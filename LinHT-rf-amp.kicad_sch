@@ -6133,7 +6133,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C42418190 or C5441443"
+		(property "LCSC" "C42418190"
 			(at 161.29 115.57 0)
 			(effects
 				(font
@@ -6142,7 +6142,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XR0908SQ-23NJLC or 0908SQ-23NJLC"
+		(property "MP" "XR0908SQ-23NJLC"
 			(at 161.29 115.57 0)
 			(effects
 				(font
