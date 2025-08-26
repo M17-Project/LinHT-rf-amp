@@ -7299,7 +7299,7 @@
 			)
 		)
 	)
-	(gr_text "LinHT \n390-470 MHz Power Amplifier\nGRF5604 6 Watt"
+	(gr_text "LinHT \n397-470 MHz Power Amplifier\nGRF5604 6 Watt"
 		(at 154.37 92.375 0)
 		(layer "B.SilkS")
 		(uuid "70b2958a-7ba9-404b-b4b4-80212bfc4005")
