@@ -7300,7 +7300,7 @@
 		)
 	)
 	(gr_text "LinHT \n390-470 MHz Power Amplifier\nGRF5604 6 Watt"
-		(at 151.65 94.46 0)
+		(at 154.37 92.375 0)
 		(layer "B.SilkS")
 		(uuid "70b2958a-7ba9-404b-b4b4-80212bfc4005")
 		(effects
@@ -7312,7 +7312,7 @@
 		)
 	)
 	(gr_text "Vlastimil OK5VAS\nWojciech SP5WWP\nAndreas  OE3ANC"
-		(at 162.35 102.075 0)
+		(at 165.07 102.05 0)
 		(layer "B.SilkS")
 		(uuid "a40e0dc8-b42f-4efa-a7b8-f05aafcf758c")
 		(effects
