@@ -11,8 +11,8 @@ This repository houses a proof-of-concept (PoC) board used to evaluate matching,
 
 ## Status
 
-- **Work in progress.**
-- Initial tuning follows the vendor EVB guidance for **~397–470 MHz** as a baseline
+- **Design tested - works.**
+- Tuning follows the vendor's reference design for **397–470 MHz**
 
 ## Safety & Compliance
 
